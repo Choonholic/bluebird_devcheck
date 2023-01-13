@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="DevCheck.ItemSamPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DevCheck"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Padding="10" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="SAM" Grid.Row="0" Style="{StaticResource SampleHeaderTextStyle}" />
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10">
+            <Button x:Name="StartTestButton" Content="Start Test" Margin="0,0,5,0" Click="{x:Bind StartTest}" IsEnabled="False" Width="340" Height="48"/>
+        </StackPanel>
+        <TextBlock x:Name="Output" Grid.Row="2" TextWrapping="WrapWholeWords">Ready</TextBlock>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,10,0,0">
+            <Button x:Name="SuccessButton" Content="Success" Margin="0,0,5,0" Click="{x:Bind Success}" IsEnabled="True" Width="165" Height="48"/>
+            <Button x:Name="FailureButton" Content="Failure" Margin="5,0,0,0" Click="{x:Bind Failure}" IsEnabled="True" Width="165" Height="48"/>
+        </StackPanel>
+    </Grid>
+</Page>

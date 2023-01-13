@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="DEVCHECK/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="DEVCHECK/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="ExitMessage" translate="yes" xml:space="preserve">
+          <source>Do you want to exit?</source>
+          <target state="final">종료 하시겠습니까?</target>
+        </trans-unit>
+        <trans-unit id="ExitTitle" translate="yes" xml:space="preserve">
+          <source>Exit</source>
+          <target state="final">종료</target>
+        </trans-unit>
+        <trans-unit id="No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="final" state-qualifier="tm-suggestion">아니요</target>
+        </trans-unit>
+        <trans-unit id="Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="final" state-qualifier="tm-suggestion">예</target>
+        </trans-unit>
+        <trans-unit id="Failed" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="final" state-qualifier="tm-suggestion">실패</target>
+        </trans-unit>
+        <trans-unit id="NotTested" translate="yes" xml:space="preserve">
+          <source>Not Tested</source>
+          <target state="final">테스트 미실행</target>
+        </trans-unit>
+        <trans-unit id="Succeeded" translate="yes" xml:space="preserve">
+          <source>Succeeded</source>
+          <target state="final" state-qualifier="tm-suggestion">성공</target>
+        </trans-unit>
+        <trans-unit id="Tested" translate="yes" xml:space="preserve">
+          <source>Tested</source>
+          <target state="final">테스트 완료</target>
+        </trans-unit>
+        <trans-unit id="Testing" translate="yes" xml:space="preserve">
+          <source>Testing</source>
+          <target state="final">테스트 중</target>
+        </trans-unit>
+        <trans-unit id="Accelerometer" translate="yes" xml:space="preserve">
+          <source>Accelerometer</source>
+          <target state="final">가속도 센서</target>
+        </trans-unit>
+        <trans-unit id="Barcode" translate="yes" xml:space="preserve">
+          <source>Barcode</source>
+          <target state="final" state-qualifier="mt-suggestion">바코드</target>
+        </trans-unit>
+        <trans-unit id="Battery" translate="yes" xml:space="preserve">
+          <source>Battery</source>
+          <target state="final">전원</target>
+        </trans-unit>
+        <trans-unit id="Bluetooth" translate="yes" xml:space="preserve">
+          <source>Bluetooth</source>
+          <target state="final">블루투스</target>
+        </trans-unit>
+        <trans-unit id="Camera" translate="yes" xml:space="preserve">
+          <source>Camera</source>
+          <target state="final" state-qualifier="tm-suggestion">카메라</target>
+        </trans-unit>
+        <trans-unit id="Compass" translate="yes" xml:space="preserve">
+          <source>Compass</source>
+          <target state="final" state-qualifier="tm-suggestion">나침반</target>
+        </trans-unit>
+        <trans-unit id="Light" translate="yes" xml:space="preserve">
+          <source>Light Sensor</source>
+          <target state="final" state-qualifier="mt-suggestion">광 센서</target>
+        </trans-unit>
+        <trans-unit id="Location" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="final">위치</target>
+        </trans-unit>
+        <trans-unit id="Proximity" translate="yes" xml:space="preserve">
+          <source>Proximity Sensor</source>
+          <target state="final" state-qualifier="mt-suggestion">근접 센서</target>
+        </trans-unit>
+        <trans-unit id="Touch" translate="yes" xml:space="preserve">
+          <source>Touch</source>
+          <target state="final" state-qualifier="tm-suggestion">터치</target>
+        </trans-unit>
+        <trans-unit id="DeviceInformation" translate="yes" xml:space="preserve">
+          <source>Device Information</source>
+          <target state="final" state-qualifier="tm-suggestion">장치 정보</target>
+        </trans-unit>
+        <trans-unit id="PerformTests" translate="yes" xml:space="preserve">
+          <source>Perform Tests</source>
+          <target state="final">테스트 실행</target>
+        </trans-unit>
+        <trans-unit id="Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final" state-qualifier="tm-suggestion">설정</target>
+        </trans-unit>
+        <trans-unit id="TestResults" translate="yes" xml:space="preserve">
+          <source>Test Results</source>
+          <target state="final">테스트 결과</target>
+        </trans-unit>
+        <trans-unit id="textPerformTests.Text" translate="yes" xml:space="preserve">
+          <source>Perform Tests</source>
+          <target state="final">테스트 실행</target>
+        </trans-unit>
+        <trans-unit id="contentStartTest.Content" translate="yes" xml:space="preserve">
+          <source>Start Test</source>
+          <target state="final" state-qualifier="tm-suggestion">테스트 시작</target>
+        </trans-unit>
+        <trans-unit id="Lcd" translate="yes" xml:space="preserve">
+          <source>LCD</source>
+          <target state="final" state-qualifier="tm-suggestion">LCD</target>
+        </trans-unit>
+        <trans-unit id="LedAndVibrator" translate="yes" xml:space="preserve">
+          <source>LED and Vibrator</source>
+          <target state="final">LED 및 진동</target>
+        </trans-unit>
+        <trans-unit id="MagneticStripeReader" translate="yes" xml:space="preserve">
+          <source>Magnetic Stripe Reader</source>
+          <target state="final">MSR</target>
+        </trans-unit>
+        <trans-unit id="Sam" translate="yes" xml:space="preserve">
+          <source>SAM</source>
+          <target state="final" state-qualifier="tm-suggestion">SAM</target>
+        </trans-unit>
+        <trans-unit id="SdCard" translate="yes" xml:space="preserve">
+          <source>SD Card</source>
+          <target state="final" state-qualifier="mt-suggestion">SD 카드</target>
+        </trans-unit>
+        <trans-unit id="WiFi" translate="yes" xml:space="preserve">
+          <source>Wi-Fi</source>
+          <target state="final" state-qualifier="tm-suggestion">Wi-Fi</target>
+        </trans-unit>
+        <trans-unit id="textUpdating.Text" translate="yes" xml:space="preserve">
+          <source>Updating...</source>
+          <target state="final" state-qualifier="tm-suggestion">업데이트 중...</target>
+        </trans-unit>
+        <trans-unit id="textDeviceInformation.Text" translate="yes" xml:space="preserve">
+          <source>Device Information</source>
+          <target state="final" state-qualifier="tm-suggestion">장치 정보</target>
+        </trans-unit>
+        <trans-unit id="textLanguage.Text" translate="yes" xml:space="preserve">
+          <source>Language:</source>
+          <target state="final">언어 (Language):</target>
+        </trans-unit>
+        <trans-unit id="textSettings.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final" state-qualifier="tm-suggestion">설정</target>
+        </trans-unit>
+        <trans-unit id="textTestResults.Text" translate="yes" xml:space="preserve">
+          <source>Test Results</source>
+          <target state="final" state-qualifier="tm-suggestion">테스트 결과</target>
+        </trans-unit>
+        <trans-unit id="contentPerformTests.Content" translate="yes" xml:space="preserve">
+          <source>Perform Tests</source>
+          <target state="final">테스트 실행</target>
+        </trans-unit>
+        <trans-unit id="labelCancel.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final" state-qualifier="tm-suggestion">취소</target>
+        </trans-unit>
+        <trans-unit id="labelSelectAll.Label" translate="yes" xml:space="preserve">
+          <source>Select All</source>
+          <target state="final" state-qualifier="tm-suggestion">모두 선택</target>
+        </trans-unit>
+        <trans-unit id="labelStartTests.Label" translate="yes" xml:space="preserve">
+          <source>Start Tests</source>
+          <target state="final" state-qualifier="mt-suggestion">테스트 시작</target>
+        </trans-unit>
+        <trans-unit id="contentFailure.Content" translate="yes" xml:space="preserve">
+          <source>Failure</source>
+          <target state="final" state-qualifier="tm-suggestion">실패</target>
+        </trans-unit>
+        <trans-unit id="contentSuccess.Content" translate="yes" xml:space="preserve">
+          <source>Success</source>
+          <target state="final" state-qualifier="tm-suggestion">성공</target>
+        </trans-unit>
+        <trans-unit id="textAccelerometer.Text" translate="yes" xml:space="preserve">
+          <source>Accelerometer</source>
+          <target state="final">가속도 센서</target>
+        </trans-unit>
+        <trans-unit id="RetrievingInformation" translate="yes" xml:space="preserve">
+          <source>Retrieving Information...</source>
+          <target state="final">정보 수신 중...</target>
+        </trans-unit>
+        <trans-unit id="textBluetoothMacAddress.Text" translate="yes" xml:space="preserve">
+          <source>Bluetooth MAC Address:</source>
+          <target state="final">블루투스 MAC 주소:</target>
+        </trans-unit>
+        <trans-unit id="textBoardVersion.Text" translate="yes" xml:space="preserve">
+          <source>Board Version:</source>
+          <target state="final" state-qualifier="mt-suggestion">보드 버전:</target>
+        </trans-unit>
+        <trans-unit id="textDeviceId.Text" translate="yes" xml:space="preserve">
+          <source>Device ID:</source>
+          <target state="final" state-qualifier="mt-suggestion">장치 ID:</target>
+        </trans-unit>
+        <trans-unit id="textFriendlyName.Text" translate="yes" xml:space="preserve">
+          <source>Friendly Name:</source>
+          <target state="final" state-qualifier="tm-suggestion">식별 이름:</target>
+        </trans-unit>
+        <trans-unit id="textOperatingSystem.Text" translate="yes" xml:space="preserve">
+          <source>Operating System:</source>
+          <target state="final" state-qualifier="mt-suggestion">운영 체제:</target>
+        </trans-unit>
+        <trans-unit id="textSerialNumber.Text" translate="yes" xml:space="preserve">
+          <source>Serial Number:</source>
+          <target state="final" state-qualifier="mt-suggestion">일련 번호:</target>
+        </trans-unit>
+        <trans-unit id="textSystemManufacturer.Text" translate="yes" xml:space="preserve">
+          <source>System Manufacturer:</source>
+          <target state="final">시스템 제조 업체:</target>
+        </trans-unit>
+        <trans-unit id="textSystemProductName.Text" translate="yes" xml:space="preserve">
+          <source>System Product Name:</source>
+          <target state="final" state-qualifier="mt-suggestion">시스템 제품 이름:</target>
+        </trans-unit>
+        <trans-unit id="textSystemSku.Text" translate="yes" xml:space="preserve">
+          <source>System SKU:</source>
+          <target state="final" state-qualifier="mt-suggestion">시스템 SKU:</target>
+        </trans-unit>
+        <trans-unit id="textWiFiClpcProvisioningSize.Text" translate="yes" xml:space="preserve">
+          <source>Wi-Fi CLPC Provisioning Size:</source>
+          <target state="final">Wi-Fi CLPC 제공 크기:</target>
+        </trans-unit>
+        <trans-unit id="textWiFiMacAddress.Text" translate="yes" xml:space="preserve">
+          <source>Wi-Fi MAC Address:</source>
+          <target state="final">Wi-Fi MAC 주소:</target>
+        </trans-unit>
+        <trans-unit id="textLcd.Text" translate="yes" xml:space="preserve">
+          <source>LCD</source>
+          <target state="final" state-qualifier="tm-suggestion">LCD</target>
+        </trans-unit>
+        <trans-unit id="RestartTest" translate="yes" xml:space="preserve">
+          <source>Restart Test</source>
+          <target state="final">테스트 재시작</target>
+        </trans-unit>
+        <trans-unit id="WiFiConstrainedInternetAccess" translate="yes" xml:space="preserve">
+          <source>Limited Internet</source>
+          <target state="final">제한된 인터넷</target>
+        </trans-unit>
+        <trans-unit id="WiFiInternetAccess" translate="yes" xml:space="preserve">
+          <source>Internet</source>
+          <target state="final" state-qualifier="tm-suggestion">인터넷</target>
+        </trans-unit>
+        <trans-unit id="WiFiLocalAccess" translate="yes" xml:space="preserve">
+          <source>Local Network</source>
+          <target state="final" state-qualifier="tm-suggestion">로컬 네트워크</target>
+        </trans-unit>
+        <trans-unit id="WiFiNone" translate="yes" xml:space="preserve">
+          <source>Not Connected</source>
+          <target state="final" state-qualifier="tm-suggestion">연결되지 않음</target>
+        </trans-unit>
+        <trans-unit id="WiFiStatus" translate="yes" xml:space="preserve">
+          <source>Authentication: {0}; Encryption: {1}</source>
+          <target state="final" state-qualifier="mt-suggestion">인증: {0}; 암호화: {1}</target>
+        </trans-unit>
+        <trans-unit id="WiFiAccessDenied" translate="yes" xml:space="preserve">
+          <source>Access Denied to Wi-Fi Adapter.</source>
+          <target state="final">Wi-Fi 어댑터 접근이 거부되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="WiFiNotSupported" translate="yes" xml:space="preserve">
+          <source>Wi-Fi is not supported.</source>
+          <target state="final">Wi-Fi가 지원 되지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="RetrieveInformationFailed" translate="yes" xml:space="preserve">
+          <source>Failed to load Device Information due to the following errors.\n\n{0}</source>
+          <target state="final">아래 오류로 인해 장치 정보를 읽어 오지 못했습니다.\n\n{0}</target>
+        </trans-unit>
+        <trans-unit id="textDisplayRotationLock.Text" translate="yes" xml:space="preserve">
+          <source>Display Rotation Lock</source>
+          <target state="final">화면 회전 잠금</target>
+        </trans-unit>
+        <trans-unit id="Error" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <target state="final" state-qualifier="mt-suggestion">오류</target>
+        </trans-unit>
+        <trans-unit id="NeedToRestartDueToChangingLanguage" translate="yes" xml:space="preserve">
+          <source>DevCheck needs to be restarted to display changed language properly.</source>
+          <target state="final">변경된 언어를 제대로 표시 하려면 DevCheck를 다시 시작해야 합니다.</target>
+        </trans-unit>
+        <trans-unit id="NeedToSelectOne" translate="yes" xml:space="preserve">
+          <source>To start the test, please select one or more test items.</source>
+          <target state="final">테스트를 시작하려면 하나 이상의 테스트 항목을 선택해 주세요.</target>
+        </trans-unit>
+        <trans-unit id="Notification" translate="yes" xml:space="preserve">
+          <source>Notification</source>
+          <target state="final" state-qualifier="mt-suggestion">알림</target>
+        </trans-unit>
+        <trans-unit id="labelSave.Label" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="final" state-qualifier="tm-suggestion">저장</target>
+        </trans-unit>
+        <trans-unit id="textSelectTestItems.Text" translate="yes" xml:space="preserve">
+          <source>Select Test Items</source>
+          <target state="final" state-qualifier="mt-suggestion">테스트 항목 선택</target>
+        </trans-unit>
+        <trans-unit id="textDevCheck.Text" translate="yes" xml:space="preserve">
+          <source>Device Functionality Check</source>
+          <target state="final">장치 기능 검사</target>
+        </trans-unit>
+        <trans-unit id="textCopyright.Text" translate="yes" xml:space="preserve">
+          <source>© 2016 Bluebird Inc.</source>
+          <target state="final">© 2016 Bluebird Inc.</target>
+        </trans-unit>
+        <trans-unit id="AccelerometerData" translate="yes" xml:space="preserve">
+          <source>X: {0,5:0.00}, Y: {1,5:0.00}, Z: {2,5:0.00}</source>
+          <target state="final">X: {0,5:0.00}, Y: {1,5:0.00}, Z: {2,5:0.00}</target>
+        </trans-unit>
+        <trans-unit id="NoAccelerometerFound" translate="yes" xml:space="preserve">
+          <source>No Accelerometer Found.</source>
+          <target state="final">가속도 센서가 지원되지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="textBarcode.Text" translate="yes" xml:space="preserve">
+          <source>Barcode</source>
+          <target state="final" state-qualifier="mt-suggestion">바코드</target>
+        </trans-unit>
+        <trans-unit id="textScanDataLabelFormatted.Text" translate="yes" xml:space="preserve">
+          <source>Scan Data Label (Formatted):</source>
+          <target state="final">스캔 데이터 레이블 (가공):</target>
+        </trans-unit>
+        <trans-unit id="textScanDataTypeSymbology.Text" translate="yes" xml:space="preserve">
+          <source>Scan Data Type (Symbology):</source>
+          <target state="final">스캔 데이터 형식 (기호):</target>
+        </trans-unit>
+        <trans-unit id="textScanDataUnformatted.Text" translate="yes" xml:space="preserve">
+          <source>Scan Data (Unformatted):</source>
+          <target state="final">스캔 데이터 (비가공):</target>
+        </trans-unit>
+        <trans-unit id="CreatingBarcodeScannerObject" translate="yes" xml:space="preserve">
+          <source>Creating barcode scanner object.</source>
+          <target state="final">바코드 스캐너 객체를 생성하고 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="ClaimBarcodeScannerFailed" translate="yes" xml:space="preserve">
+          <source>Claim barcode scanner failed.</source>
+          <target state="final">바코드 스캐너를 사용할 수 없습니다.</target>
+        </trans-unit>
+        <trans-unit id="FailedToCreateBarcodeScannerObject" translate="yes" xml:space="preserve">
+          <source>Failed to create barcode scanner object.</source>
+          <target state="final">바코드 스캐너 객체를 생성할 수 없습니다.</target>
+        </trans-unit>
+        <trans-unit id="Idle" translate="yes" xml:space="preserve">
+          <source>Idle</source>
+          <target state="final">대기 상태</target>
+        </trans-unit>
+        <trans-unit id="NoData" translate="yes" xml:space="preserve">
+          <source>No Data</source>
+          <target state="final">데이터 없음</target>
+        </trans-unit>
+        <trans-unit id="RawLabelData" translate="yes" xml:space="preserve">
+          <source>Decoded data unavailable. Raw label data: {0}</source>
+          <target state="final" state-qualifier="mt-suggestion">디코딩된 데이터를 사용할 수 없습니다. 원시 레이블 데이터: {0}</target>
+        </trans-unit>
+        <trans-unit id="ReadyToBarcodeScan" translate="yes" xml:space="preserve">
+          <source>Ready to scan. Device ID: </source>
+          <target state="final">스캔이 가능한 상태입니다. 장치 ID: </target>
+        </trans-unit>
+        <trans-unit id="RetainingBarcodeScanner" translate="yes" xml:space="preserve">
+          <source>Event ReleaseDeviceRequested received. Retaining the barcode scanner.</source>
+          <target state="final">ReleaseDeviceRequested 이벤트를 받았습니다. 바코드 스캐너를 유지합니다.</target>
+        </trans-unit>
+        <trans-unit id="BatteryChargeRate" translate="yes" xml:space="preserve">
+          <source>Charge Rate (mW): </source>
+          <target state="final">충전 효율 (mW): </target>
+        </trans-unit>
+        <trans-unit id="BatteryDesignCapacity" translate="yes" xml:space="preserve">
+          <source>Design Energy Capacity (mWh): </source>
+          <target state="final">설계 에너지 용량 (mWh): </target>
+        </trans-unit>
+        <trans-unit id="BatteryDeviceId" translate="yes" xml:space="preserve">
+          <source>Battery Device ID: </source>
+          <target state="final" state-qualifier="mt-suggestion">배터리 장치 ID: </target>
+        </trans-unit>
+        <trans-unit id="BatteryFullChargeCapacity" translate="yes" xml:space="preserve">
+          <source>Fully-charged energy capacity (mWh): </source>
+          <target state="final">완전 충전 에너지 용량 (mWh): </target>
+        </trans-unit>
+        <trans-unit id="BatteryNotApplicable" translate="yes" xml:space="preserve">
+          <source>Not Applicable</source>
+          <target state="final" state-qualifier="tm-suggestion">적용할 수 없음</target>
+        </trans-unit>
+        <trans-unit id="BatteryPercent" translate="yes" xml:space="preserve">
+          <source>Percent remaining energy capacity</source>
+          <target state="final">남은 에너지 용량 (%)</target>
+        </trans-unit>
+        <trans-unit id="BatteryRemainingCapacity" translate="yes" xml:space="preserve">
+          <source>Remaining energy capacity (mWh): </source>
+          <target state="final">남은 에너지 용량 (mWh): </target>
+        </trans-unit>
+        <trans-unit id="BatteryStatus" translate="yes" xml:space="preserve">
+          <source>Battery Status: </source>
+          <target state="final" state-qualifier="mt-suggestion">배터리 상태: </target>
+        </trans-unit>
+        <trans-unit id="BatteryCharging" translate="yes" xml:space="preserve">
+          <source>Charging</source>
+          <target state="final" state-qualifier="tm-suggestion">충전 중</target>
+        </trans-unit>
+        <trans-unit id="BatteryDischarging" translate="yes" xml:space="preserve">
+          <source>Discharging</source>
+          <target state="final" state-qualifier="tm-suggestion">방전 중</target>
+        </trans-unit>
+        <trans-unit id="BatteryIdle" translate="yes" xml:space="preserve">
+          <source>Idle</source>
+          <target state="final" state-qualifier="tm-suggestion">유휴 상태</target>
+        </trans-unit>
+        <trans-unit id="BatteryNotPresent" translate="yes" xml:space="preserve">
+          <source>Not Present</source>
+          <target state="final" state-qualifier="tm-suggestion">없음</target>
+        </trans-unit>
+        <trans-unit id="textTouch.Text" translate="yes" xml:space="preserve">
+          <source>Touch</source>
+          <target state="final" state-qualifier="tm-suggestion">터치</target>
+        </trans-unit>
+        <trans-unit id="textProximity.Text" translate="yes" xml:space="preserve">
+          <source>Proximity Sensor</source>
+          <target state="final" state-qualifier="mt-suggestion">근접 센서</target>
+        </trans-unit>
+        <trans-unit id="textProximityDescription.Text" translate="yes" xml:space="preserve">
+          <source>If the proximity sensor detects and the display is turned on or off automatically, the test is success.</source>
+          <target state="final">근접 센서가 접근을 감지하여 화면이 자동으로 꺼지거나 켜지면 테스트 성공으로 간주합니다.</target>
+        </trans-unit>
+        <trans-unit id="ProximityNotSupported" translate="yes" xml:space="preserve">
+          <source>Proximity Sensor is not supported.</source>
+          <target state="final">근접 센서가 지원되지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="textLocation.Text" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="final">위치</target>
+        </trans-unit>
+        <trans-unit id="textLocationAccuracy.Text" translate="yes" xml:space="preserve">
+          <source>Accuracy: </source>
+          <target state="final" state-qualifier="mt-suggestion">정확도: </target>
+        </trans-unit>
+        <trans-unit id="textLocationLatitude.Text" translate="yes" xml:space="preserve">
+          <source>Latitude: </source>
+          <target state="final" state-qualifier="mt-suggestion">위도: </target>
+        </trans-unit>
+        <trans-unit id="textLocationLongitude.Text" translate="yes" xml:space="preserve">
+          <source>Longitude: </source>
+          <target state="final" state-qualifier="mt-suggestion">경도: </target>
+        </trans-unit>
+        <trans-unit id="textLocationStatus.Text" translate="yes" xml:space="preserve">
+          <source>Status: </source>
+          <target state="final" state-qualifier="mt-suggestion">상태: </target>
+        </trans-unit>
+        <trans-unit id="Ready" translate="yes" xml:space="preserve">
+          <source>Ready</source>
+          <target state="final" state-qualifier="tm-suggestion">준비</target>
+        </trans-unit>
+        <trans-unit id="Disabled" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <target state="final" state-qualifier="tm-suggestion">사용 안 함</target>
+        </trans-unit>
+        <trans-unit id="Initializing" translate="yes" xml:space="preserve">
+          <source>Initializing</source>
+          <target state="final" state-qualifier="tm-suggestion">초기화 중</target>
+        </trans-unit>
+        <trans-unit id="LocationFailedHyperlink" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final" state-qualifier="tm-suggestion">설정</target>
+        </trans-unit>
+        <trans-unit id="LocationFailedPostfix" translate="yes" xml:space="preserve">
+          <source> to check the location permissions, then perform test again.</source>
+          <target state="final"> 앱에서 위치 사용 권한을 확인한 후, 테스트를 다시 실행해 주세요.</target>
+        </trans-unit>
+        <trans-unit id="LocationFailedPrefix" translate="yes" xml:space="preserve">
+          <source>DevCheck is not able to get location data. Go to </source>
+          <target state="final">DevCheck가 위치 데이터를 가져올 수 없습니다. </target>
+        </trans-unit>
+        <trans-unit id="NotAvailable" translate="yes" xml:space="preserve">
+          <source>Not Available</source>
+          <target state="final" state-qualifier="tm-suggestion">사용할 수 없음</target>
+        </trans-unit>
+        <trans-unit id="NotInitialized" translate="yes" xml:space="preserve">
+          <source>Not Initialized</source>
+          <target state="final">초기화되지 않음</target>
+        </trans-unit>
+        <trans-unit id="Unknown" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="final" state-qualifier="tm-suggestion">알 수 없음</target>
+        </trans-unit>
+        <trans-unit id="textCompassDisabled.Text" translate="yes" xml:space="preserve">
+          <source>No Compass Found.</source>
+          <target state="final">나침반을 지원하지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="textCompass.Text" translate="yes" xml:space="preserve">
+          <source>Compass</source>
+          <target state="final" state-qualifier="tm-suggestion">나침반</target>
+        </trans-unit>
+        <trans-unit id="textCompassHeadingAccuracy.Text" translate="yes" xml:space="preserve">
+          <source>Heading Accuracy:</source>
+          <target state="final">방향 정확도:</target>
+        </trans-unit>
+        <trans-unit id="textCompassMagneticNorth.Text" translate="yes" xml:space="preserve">
+          <source>Magnetic North:</source>
+          <target state="final">자북 방향:</target>
+        </trans-unit>
+        <trans-unit id="textCompassTrueNorth.Text" translate="yes" xml:space="preserve">
+          <source>True North:</source>
+          <target state="final">진북 방향:</target>
+        </trans-unit>
+        <trans-unit id="Approximate" translate="yes" xml:space="preserve">
+          <source>Approximate</source>
+          <target state="final">근사값</target>
+        </trans-unit>
+        <trans-unit id="High" translate="yes" xml:space="preserve">
+          <source>High</source>
+          <target state="final" state-qualifier="tm-suggestion">높음</target>
+        </trans-unit>
+        <trans-unit id="Unreliable" translate="yes" xml:space="preserve">
+          <source>Unreliable</source>
+          <target state="final">신뢰할 수 없는 값</target>
+        </trans-unit>
+        <trans-unit id="textLight.Text" translate="yes" xml:space="preserve">
+          <source>Light Sensor</source>
+          <target state="final" state-qualifier="mt-suggestion">광 센서</target>
+        </trans-unit>
+        <trans-unit id="LightNotSupported" translate="yes" xml:space="preserve">
+          <source>Light Sensor is not supported.</source>
+          <target state="final">광 센서는 지원되지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="Lux" translate="yes" xml:space="preserve">
+          <source>Illuminance (LUX): {0,5:0.00}</source>
+          <target state="final">조도(LUX): {0,5:0.00}</target>
+        </trans-unit>
+        <trans-unit id="Build" translate="yes" xml:space="preserve">
+          <source>Build</source>
+          <target state="final">빌드</target>
+        </trans-unit>
+        <trans-unit id="textDeviceFamily.Text" translate="yes" xml:space="preserve">
+          <source>Device Family:</source>
+          <target state="final">장치 계열:</target>
+        </trans-unit>
+        <trans-unit id="textVersion.Text" translate="yes" xml:space="preserve">
+          <source>Version:</source>
+          <target state="final" state-qualifier="tm-suggestion">버전:</target>
+        </trans-unit>
+        <trans-unit id="textArchitecture.Text" translate="yes" xml:space="preserve">
+          <source>Architecture:</source>
+          <target state="final" state-qualifier="tm-suggestion">아키텍처:</target>
+        </trans-unit>
+        <trans-unit id="textBattery.Text" translate="yes" xml:space="preserve">
+          <source>Battery</source>
+          <target state="final" state-qualifier="mt-suggestion">배터리</target>
+        </trans-unit>
+        <trans-unit id="textSdCard.Text" translate="yes" xml:space="preserve">
+          <source>SD Card</source>
+          <target state="final" state-qualifier="mt-suggestion">SD 카드</target>
+        </trans-unit>
+        <trans-unit id="sdCardId" translate="yes" xml:space="preserve">
+          <source>ID:</source>
+          <target state="final" state-qualifier="mt-suggestion">ID:</target>
+        </trans-unit>
+        <trans-unit id="sdCardName" translate="yes" xml:space="preserve">
+          <source>Name:</source>
+          <target state="final" state-qualifier="tm-suggestion">이름:</target>
+        </trans-unit>
+        <trans-unit id="sdCardNotSupported" translate="yes" xml:space="preserve">
+          <source>SD Card is not present or not supported.</source>
+          <target state="final">SD 카드가 없거나 지원되지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="sdCardPath" translate="yes" xml:space="preserve">
+          <source>Path:</source>
+          <target state="final">경로:</target>
+        </trans-unit>
+        <trans-unit id="sdCardProvider" translate="yes" xml:space="preserve">
+          <source>Provider:</source>
+          <target state="final" state-qualifier="mt-suggestion">공급자:</target>
+        </trans-unit>
+        <trans-unit id="textCamera.Text" translate="yes" xml:space="preserve">
+          <source>Camera</source>
+          <target state="final" state-qualifier="tm-suggestion">카메라</target>
+        </trans-unit>
+        <trans-unit id="textCameraDescription.Text" translate="yes" xml:space="preserve">
+          <source>Tap Open Camera button to test various Camera features.</source>
+          <target state="final">카메라의 여러 가지 기능을 테스트하려면 카메라 실행 버튼을 누릅니다.</target>
+        </trans-unit>
+        <trans-unit id="contentOpenCamera.Content" translate="yes" xml:space="preserve">
+          <source>Open Camera</source>
+          <target state="final">카메라 실행</target>
+        </trans-unit>
+        <trans-unit id="contentWiFiScan.Content" translate="yes" xml:space="preserve">
+          <source>Scan</source>
+          <target state="final">검색</target>
+        </trans-unit>
+        <trans-unit id="textWiFiBssid.Text" translate="yes" xml:space="preserve">
+          <source>Bssid:</source>
+          <target state="final" state-qualifier="mt-suggestion">Bssid:</target>
+        </trans-unit>
+        <trans-unit id="textWiFiChFreq.Text" translate="yes" xml:space="preserve">
+          <source>Ch. Frequency:</source>
+          <target state="final" state-qualifier="mt-suggestion">채널 주파수:</target>
+        </trans-unit>
+        <trans-unit id="textWiFiRssi.Text" translate="yes" xml:space="preserve">
+          <source>Rssi:</source>
+          <target state="final" state-qualifier="mt-suggestion">Rssi:</target>
+        </trans-unit>
+        <trans-unit id="textWiFiSsid.Text" translate="yes" xml:space="preserve">
+          <source>Ssid:</source>
+          <target state="final" state-qualifier="mt-suggestion">Ssid:</target>
+        </trans-unit>
+        <trans-unit id="contentBluetoothScan.Content" translate="yes" xml:space="preserve">
+          <source>Scan</source>
+          <target state="final">검색</target>
+        </trans-unit>
+        <trans-unit id="contentOpenBluetooth.Content" translate="yes" xml:space="preserve">
+          <source>Open Bluetooth</source>
+          <target state="final">블루투스 설정</target>
+        </trans-unit>
+        <trans-unit id="textBluetooth.Text" translate="yes" xml:space="preserve">
+          <source>Bluetooth</source>
+          <target state="final">블루투스</target>
+        </trans-unit>
+        <trans-unit id="textBluetoothId.Text" translate="yes" xml:space="preserve">
+          <source>Id:</source>
+          <target state="final" state-qualifier="mt-suggestion">Id:</target>
+        </trans-unit>
+        <trans-unit id="textBluetoothName.Text" translate="yes" xml:space="preserve">
+          <source>Name:</source>
+          <target state="final" state-qualifier="tm-suggestion">이름:</target>
+        </trans-unit>
+        <trans-unit id="BluetoothDevicesFound" translate="yes" xml:space="preserve">
+          <source>{0} {1} found.</source>
+          <target state="final">{0} 개의 {1}를 발견하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="BluetoothEnumerationCompleted" translate="yes" xml:space="preserve">
+          <source>{0} {1} found. Enumeration completed. Watching for updates...</source>
+          <target state="final">{0} 개의 {1}를 발견하여 표시하였습니다. 변경 사항을 찾는 중입니다...</target>
+        </trans-unit>
+        <trans-unit id="BluetoothWatcherStarting" translate="yes" xml:space="preserve">
+          <source>Starting Watcher...</source>
+          <target state="final">검색을 시작합니다...</target>
+        </trans-unit>
+        <trans-unit id="BluetoothWatcherStopped" translate="yes" xml:space="preserve">
+          <source>{0} {1} found. {2}</source>
+          <target state="final">{0} 개의 {1}를 발견하였습니다. {2}</target>
+        </trans-unit>
+        <trans-unit id="Device" translate="yes" xml:space="preserve">
+          <source>device</source>
+          <target state="final" state-qualifier="tm-suggestion">장치</target>
+        </trans-unit>
+        <trans-unit id="Devices" translate="yes" xml:space="preserve">
+          <source>devices</source>
+          <target state="final" state-qualifier="tm-suggestion">장치</target>
+        </trans-unit>
+        <trans-unit id="WatcherAborted" translate="yes" xml:space="preserve">
+          <source>Watcher aborted.</source>
+          <target state="final">검색이 취소되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="WatcherStopped" translate="yes" xml:space="preserve">
+          <source>Watcher stopped.</source>
+          <target state="final">검색이 종료되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="contentExitTest.Content" translate="yes" xml:space="preserve">
+          <source>Exit Test</source>
+          <target state="final">테스트 종료</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

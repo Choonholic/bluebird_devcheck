@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="efe79b71-0429-1167-bda4-1f3ecadf7448" Publisher="CN=Huyu" Version="0.3.624.0" />
+  <mp:PhoneIdentity PhoneProductId="efe79b71-04d7-4d1f-bda4-1f3ecadf7448" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>DevCheck</DisplayName>
+    <PublisherDisplayName>Bluebird Inc.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="DevCheck.App">
+      <uap:VisualElements DisplayName="Device Functionality Check" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Device Functionality Check Utility" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="allJoyn" />
+    <Capability Name="codeGeneration" />
+    <Capability Name="internetClientServer" />
+    <Capability Name="privateNetworkClientServer" />
+    <uap:Capability Name="removableStorage" />
+    <uap:Capability Name="phoneCall" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="appointments" />
+    <uap:Capability Name="blockedChatMessages" />
+    <uap:Capability Name="chat" />
+    <uap:Capability Name="contacts" />
+    <uap:Capability Name="enterpriseAuthentication" />
+    <uap:Capability Name="musicLibrary" />
+    <uap:Capability Name="objects3D" />
+    <uap:Capability Name="sharedUserCertificates" />
+    <uap:Capability Name="userAccountInformation" />
+    <uap:Capability Name="videosLibrary" />
+    <uap:Capability Name="voipCall" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="location" />
+    <DeviceCapability Name="bluetooth" />
+    <DeviceCapability Name="proximity" />
+    <DeviceCapability Name="wiFiControl" />
+    <DeviceCapability Name="pointOfService" />
+  </Capabilities>
+</Package>

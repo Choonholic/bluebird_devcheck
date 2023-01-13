@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="DevCheck.ItemBarcodePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DevCheck"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Padding="10" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Uid="textBarcode" Text="Barcode" Grid.Row="0" Style="{StaticResource SampleHeaderTextStyle}" />
+        <ScrollViewer Grid.Row="1" VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Auto" Margin="0,10,0,0">
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="Output" Text="Ready" TextWrapping="Wrap" Style="{StaticResource BasicTextStyle}" HorizontalAlignment="Left" Margin="0,0,0,20" Height="42" FontWeight="Bold" MaxLines="2"/>
+                <TextBlock x:Uid="textScanDataTypeSymbology" Text="Scan Data Type (Symbology):" TextWrapping="Wrap" Style="{StaticResource BasicTextStyle}" HorizontalAlignment="Left" Margin="0,0,0,5" Width="Auto" />
+                <TextBlock x:Name="OutputScanDataType" TextWrapping="Wrap" Style="{StaticResource BasicTextStyle}" HorizontalAlignment="Left" Text="No Data" Margin="30,0,0,10" />
+                <TextBlock x:Uid="textScanDataUnformatted" Text="Scan Data (Unformatted):" TextWrapping="Wrap" Style="{StaticResource BasicTextStyle}" HorizontalAlignment="Left" Margin="0,0,0,5"/>
+                <TextBlock x:Name="OutputScanData" TextWrapping="Wrap" Style="{StaticResource BasicTextStyle}" HorizontalAlignment="Left" Text="No Data" Margin="30,0,0,10" />
+                <TextBlock x:Uid="textScanDataLabelFormatted" Text="Scan Data Label (Formatted):" TextWrapping="Wrap" Style="{StaticResource BasicTextStyle}" HorizontalAlignment="Left" Margin="0,0,0,5"/>
+                <TextBlock x:Name="OutputScanDataLabel" TextWrapping="Wrap" Style="{StaticResource BasicTextStyle}" HorizontalAlignment="Left" Text="No Data" Margin="30,0,0,10" />
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+                <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="48" />
+            </Grid.RowDefinitions>
+            <Button x:Name="SuccessButton" x:Uid="contentSuccess" Content="Success" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,5,0" Click="{x:Bind Success}" IsEnabled="True" Grid.Row="0" Grid.Column="0" />
+            <Button x:Name="FailureButton" x:Uid="contentFailure" Content="Failure" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,0,0,0" Click="{x:Bind Failure}" IsEnabled="True" Grid.Row="0" Grid.Column="1" />
+        </Grid>
+    </Grid>
+</Page>

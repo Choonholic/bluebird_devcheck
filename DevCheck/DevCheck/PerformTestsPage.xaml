@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="DevCheck.PerformTestsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DevCheck"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:DevCheck.Model"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Uid="labelStartTests" Label="Start Tests" Icon="Play" Click="StartTests" x:Name="StartTestsAppBarBtn"/>
+            <AppBarButton x:Uid="labelSelectAll" Label="Select All" Icon="SelectAll" Click="SelectAllItems" x:Name="SelectAllAppBarBtn"/>
+            <AppBarButton x:Uid="labelCancel" Label="Cancel" Icon="Cancel" Click="CancelSelection" x:Name="CancelSelectionAppBarBtn"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Page.Resources>
+        <DataTemplate x:Name="TestListViewTemplate" x:DataType="data:TestItem">
+            <Grid>
+                <TextBlock Text="{x:Bind Title}" Style="{ThemeResource BaseTextBlockStyle}" Margin="12,6" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+    <Grid Padding="10" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Uid="textSelectTestItems" Text="Select Test Items" Grid.Row="0" Margin="0,0,0,10" Style="{StaticResource SampleHeaderTextStyle}" />
+        <ListView x:Name="TestListView" Grid.Row="1" SelectionMode="Multiple" ItemTemplate="{StaticResource TestListViewTemplate}" />
+    </Grid>
+</Page>
